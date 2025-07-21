@@ -38,3 +38,5 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
 ## Google Calendar Integration
 
 Environment variables in `.env` (see `.env.example`) configure access to Google Calendar. Once set, the latest event from your primary calendar can be fetched from `/api/latest-event`.
+
+The home page includes a **Get Latest Event** button that calls this endpoint and displays the title, description and start time of the next event.
